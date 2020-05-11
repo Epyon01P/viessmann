@@ -2,7 +2,7 @@
 """
 Created on Sat Apr 18 21:39:31 2020
 A minimal implementation of a Modbus piggyback for Viessmann heat pumps (HP).
-The hardware is controlled by messages over the MQTT bus.
+The serial interface hardware is controlled by messages over the MQTT bus.
 The programme reads in a JSON file (viessmann.josn) containing the registers 
 to read, briefly disables the communication between HP and thermostat thereby 
 making itself the bus master, requests the registers, then relinquishes 
