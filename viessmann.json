@@ -1,0 +1,57 @@
+[{
+	"register": 200,
+	"name": "operation_mode",
+	"type": "numeric",
+	"unit": "",
+	"multiplier": 1,
+	"publish": true
+}, {
+	"register": 1002,
+	"name": "setpoint_heating",
+	"type": "numeric",
+	"unit": "°C",
+	"multiplier": 10,
+	"publish": true
+}, {
+	"register": 1003,
+	"name": "setpoint_sww",
+	"type": "numeric",
+	"unit": "°C",
+	"multiplier": 10,
+	"publish": true
+}, {
+	"register": 400,
+	"name": "temperature_retour",
+	"type": "numeric",
+	"unit": "°C",
+	"multiplier": 10,
+	"publish": true
+}, {
+	"register": 401,
+	"name": "temperature_depart",
+	"type": "numeric",
+	"unit": "°C",
+	"multiplier": 10,
+	"publish": true
+}, {
+	"register": 405,
+	"name": "temperature_sww",
+	"type": "numeric",
+	"unit": "°C",
+	"multiplier": 10,
+	"publish": true
+}, {
+	"register": 428,
+	"name": "temperature_extern",
+	"type": "numeric",
+	"unit": "°C",
+	"multiplier": 10,
+	"publish": true
+}, {
+	"register": 440,
+	"name": "temperature_external_system",
+	"type": "numeric",
+	"unit": "°C",
+	"multiplier": 10,
+	"publish": true
+}]
